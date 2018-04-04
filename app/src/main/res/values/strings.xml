@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="title_activity_converter">ConverterActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_dinner_decider">DinnerDeciderActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>

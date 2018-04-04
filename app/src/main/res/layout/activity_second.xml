@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Day1.SecondActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_host"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_weight="2"
+            android:layout_margin="10dp"
+            android:hint="Host"/>
+        <TextView
+            android:id="@+id/tv_port"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:hint="port"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_linear1"
+        android:layout_below="@id/layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginBottom="0dp"
+
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_weight="2"
+            android:layout_margin="10dp"
+            android:layout_marginTop="0dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_marginTop="0dp"
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt_username"
+        android:layout_below="@id/linear_linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_below="@id/txt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_password"
+        android:layout_below="@id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_below="@id/txt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_password"
+        android:text="Login"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        />
+
+
+</RelativeLayout>
