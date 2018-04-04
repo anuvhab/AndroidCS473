@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".Day1.MainActivity" />
         <activity
             android:name=".Day1.SecondActivity"
@@ -19,11 +20,7 @@
         <activity
             android:name=".Day0.BaseActivity"
             android:label="@string/title_activity_base">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Day2.DinnerDeciderActivity"
@@ -34,7 +31,13 @@
         <activity
             android:name=".Day0.SplashActivity"
             android:label="@string/title_activity_splash"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
