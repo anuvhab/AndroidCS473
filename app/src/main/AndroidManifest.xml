@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity android:name=".Day1.MainActivity" />
         <activity
             android:name=".Day1.SecondActivity"
@@ -19,9 +18,7 @@
             android:label="@string/title_activity_converter" />
         <activity
             android:name=".Day0.BaseActivity"
-            android:label="@string/title_activity_base">
-
-        </activity>
+            android:label="@string/title_activity_base" />
         <activity
             android:name=".Day2.DinnerDeciderActivity"
             android:label="@string/title_activity_dinner_decider"
@@ -38,6 +35,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Day3.WalmartStoreActivity" />
+        <activity android:name=".Day3.CreateAccountActivity" />
+        <activity android:name=".Day4.AutoCompleteTextViewDemo" />
+        <activity android:name=".Day3.ShoppingActivity" />
+        <activity android:name=".Day3.ImplicitIntentActivity"></activity>
     </application>
 
 </manifest>
