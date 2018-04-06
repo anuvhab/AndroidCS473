@@ -1,0 +1,9 @@
+Problem Description
+
+To create the app ImplicitIntentActivity, I used camera app and sending email app.
+
+Camera app: By clicking the CAMERA Button, it opens the camera application thus built in in the system
+We can click the picture and after that that picture is displayed in the ImageViewer in that Activity window.
+
+Send Email: We can send email by clicking the EMAIL button which opens the email application thus built in in the system.
+
