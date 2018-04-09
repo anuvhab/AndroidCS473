@@ -48,8 +48,11 @@ public class WalmartStoreActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                Intent intent = new Intent(WalmartStoreActivity.this, ShoppingActivity.class);
+                intent.putExtra("userNameInput",userNameStr);
+                startActivity(intent);
 
-                userNameStr = userName.getText().toString();
+               /* userNameStr = userName.getText().toString();
                 Toast.makeText(WalmartStoreActivity.this, userNameStr, Toast.LENGTH_SHORT).show();
                 passwordStr = password.getText().toString();
                 Toast.makeText(WalmartStoreActivity.this, passwordStr, Toast.LENGTH_SHORT).show();
@@ -60,10 +63,8 @@ public class WalmartStoreActivity extends AppCompatActivity {
                         intent.putExtra("userNameInput",userNameStr);
                         startActivity(intent);
                     }
-                    else{
-                        Toast.makeText(WalmartStoreActivity.this, "Username or Password did not match !!", Toast.LENGTH_SHORT).show();
-                    }
-                }
+
+                }*/
 
             }
         });

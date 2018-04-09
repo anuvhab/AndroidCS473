@@ -39,7 +39,19 @@
         <activity android:name=".Day3.CreateAccountActivity" />
         <activity android:name=".Day4.AutoCompleteTextViewDemo" />
         <activity android:name=".Day3.ShoppingActivity" />
-        <activity android:name=".Day3.ImplicitIntentActivity"></activity>
+        <activity android:name=".Day3.ImplicitIntentActivity" />
+        <activity android:name=".Day3.GridViewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Day3.ElectronicsActivity" />
+        <activity android:name=".Day3.ClothingActivity" />
+        <activity android:name=".Day3.ShoppingActivity$ClothingActivity" />
+        <activity android:name=".Day3.BeautyActivity" />
+        <activity android:name=".Day3.FoodActivity"></activity>
     </application>
 
 </manifest>
